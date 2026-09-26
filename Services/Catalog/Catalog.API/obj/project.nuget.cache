@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "1+E9aEkqAxk=",
+  "success": true,
+  "projectFilePath": "C:\\Code\\Code\\EShopMicroservices\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayaza\\.nuget\\packages\\carter\\8.2.1\\carter.8.2.1.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\carter.analyzers\\8.2.1\\carter.analyzers.8.2.1.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\mapster\\10.0.13\\mapster.10.0.13.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\mapster.core\\10.0.13\\mapster.core.10.0.13.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.codeanalysis.common\\4.7.0\\microsoft.codeanalysis.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.7.0\\microsoft.codeanalysis.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.reflection.metadata\\7.0.0\\system.reflection.metadata.7.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
