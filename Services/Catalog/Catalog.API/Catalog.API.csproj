@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <PackageReference Include="Carter" Version="8.2.1" />
+      <PackageReference Include="Marten" Version="8.38.1" />
     </ItemGroup>
 
     <ItemGroup>
