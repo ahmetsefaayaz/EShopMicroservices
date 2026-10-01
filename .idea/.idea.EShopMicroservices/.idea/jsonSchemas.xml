@@ -17,6 +17,9 @@
                   <Item>
                     <option name="path" value="Services/Catalog/Catalog.API/appsettings.Development.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="Services/Basket/Basket.API/appsettings.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
