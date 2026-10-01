@@ -33,10 +33,10 @@ builder.Services.AddHealthChecks()
 
 var app = builder.Build();
 
+app.UseExceptionHandler(options =>{});
 
 app.MapCarter();
 
-app.UseExceptionHandler(options =>{});
 
 app.UseHealthChecks("/health",
     new HealthCheckOptions
