@@ -62,11 +62,13 @@
       - ASPNETCORE_HTTPS_PORTS=8081
       - ConnectionStrings__DefaultConnection=Server=basketdb;Port=5432;Database=BasketDb;Username=postgres;Password=postgres
       - ConnectionStrings__Redis=distributedcache:6379
+      - GrpcSettings__DiscountUrl=https://discount.grpc:8081
       - ASPNETCORE_Kestrel__Certificates__Default__Password=Sifre123!
       - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
     depends_on:
       - basketdb
       - distributedcache
+      - discount.grpc
     volumes:
       - ${USERPROFILE}\.aspnet\https:/https:ro
   discount.grpc:
