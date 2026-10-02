@@ -221,3 +221,9 @@ C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Heal
 C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.Redis.dll
 C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.UI.Client.dll
 C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.UI.Core.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Http.dll

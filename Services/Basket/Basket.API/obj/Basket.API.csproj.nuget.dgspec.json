@@ -149,6 +149,24 @@
               "target": "Package",
               "version": "[8.2.1, )"
             },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.36.2, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.84.0, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.84.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.84.0, )"
+            },
             "Marten": {
               "target": "Package",
               "version": "[8.38.1, )"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4966gehDm08=",
+  "dgSpecHash": "eIG/A+cg1Z0=",
   "success": true,
   "projectFilePath": "C:\\Code\\Code\\EShopMicroservices\\Services\\Basket\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,12 @@
     "C:\\Users\\ayaza\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\google.protobuf\\3.36.2\\google.protobuf.3.36.2.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\grpc.core.api\\2.84.0\\grpc.core.api.2.84.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\grpc.net.client\\2.84.0\\grpc.net.client.2.84.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\grpc.net.clientfactory\\2.84.0\\grpc.net.clientfactory.2.84.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\grpc.net.common\\2.84.0\\grpc.net.common.2.84.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\grpc.tools\\2.84.0\\grpc.tools.2.84.0.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\imtools\\4.0.0\\imtools.4.0.0.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\jasperfx\\1.31.0\\jasperfx.1.31.0.nupkg.sha512",
@@ -62,6 +68,7 @@
     "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.hosting\\8.0.1\\microsoft.extensions.hosting.8.0.1.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.1\\microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.http\\8.0.1\\microsoft.extensions.http.8.0.1.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.logging.configuration\\8.0.1\\microsoft.extensions.logging.configuration.8.0.1.nupkg.sha512",
