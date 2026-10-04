@@ -895,6 +895,7 @@
       "Ordering.Application/1.0.0": {
         "dependencies": {
           "BuildingBlocks": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.31",
           "Ordering.Domain": "1.0.0"
         },
         "runtime": {
