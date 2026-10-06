@@ -20,3 +20,5 @@ C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Infrastructure\obj\De
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.pdb
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.genruntimeconfig.cache
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\ref\Ordering.Infrastructure.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\BuildingBlock.Messaging.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\BuildingBlock.Messaging.pdb

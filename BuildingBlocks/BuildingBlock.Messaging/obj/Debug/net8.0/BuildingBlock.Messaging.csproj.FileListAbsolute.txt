@@ -1,0 +1,13 @@
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\bin\Debug\net8.0\BuildingBlock.Messaging.deps.json
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\bin\Debug\net8.0\BuildingBlock.Messaging.dll
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\bin\Debug\net8.0\BuildingBlock.Messaging.pdb
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.csproj.AssemblyReference.cache
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.AssemblyInfoInputs.cache
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.AssemblyInfo.cs
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.csproj.CoreCompileInputs.cache
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.sourcelink.json
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.dll
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\refint\BuildingBlock.Messaging.dll
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\BuildingBlock.Messaging.pdb
+C:\Code\Code\EShopMicroservices\BuildingBlocks\BuildingBlock.Messaging\obj\Debug\net8.0\ref\BuildingBlock.Messaging.dll

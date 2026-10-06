@@ -16,3 +16,5 @@ C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Application\obj\Debug
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Application\obj\Debug\net8.0\refint\Ordering.Application.dll
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Application\obj\Debug\net8.0\Ordering.Application.pdb
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Application\obj\Debug\net8.0\ref\Ordering.Application.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Application\bin\Debug\net8.0\BuildingBlock.Messaging.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.Application\bin\Debug\net8.0\BuildingBlock.Messaging.pdb

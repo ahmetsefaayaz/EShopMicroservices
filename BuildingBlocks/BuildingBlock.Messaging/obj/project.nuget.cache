@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "jXZnUJSlx9A=",
+  "success": true,
+  "projectFilePath": "C:\\Code\\Code\\EShopMicroservices\\BuildingBlocks\\BuildingBlock.Messaging\\BuildingBlock.Messaging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayaza\\.nuget\\packages\\masstransit\\8.5.11\\masstransit.8.5.11.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\masstransit.abstractions\\8.5.11\\masstransit.abstractions.8.5.11.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\masstransit.rabbitmq\\8.5.11\\masstransit.rabbitmq.8.5.11.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\rabbitmq.client\\7.2.2\\rabbitmq.client.7.2.2.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

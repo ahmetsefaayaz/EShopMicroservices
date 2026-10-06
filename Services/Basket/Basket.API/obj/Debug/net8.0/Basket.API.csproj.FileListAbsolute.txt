@@ -227,3 +227,12 @@ C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc
 C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Common.dll
 C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\BuildingBlock.Messaging.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\BuildingBlock.Messaging.pdb
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.FeatureManagement.dll
+C:\Code\Code\EShopMicroservices\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.FeatureManagement.AspNetCore.dll

@@ -150,6 +150,40 @@
           }
         }
       },
+      "MassTransit/8.5.11": {
+        "dependencies": {
+          "MassTransit.Abstractions": "8.5.11",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.dll": {
+            "assemblyVersion": "8.5.11.0",
+            "fileVersion": "8.5.11.0"
+          }
+        }
+      },
+      "MassTransit.Abstractions/8.5.11": {
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "assemblyVersion": "8.5.11.0",
+            "fileVersion": "8.5.11.0"
+          }
+        }
+      },
+      "MassTransit.RabbitMQ/8.5.11": {
+        "dependencies": {
+          "MassTransit": "8.5.11",
+          "RabbitMQ.Client": "7.2.2"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
+            "assemblyVersion": "8.5.11.0",
+            "fileVersion": "8.5.11.0"
+          }
+        }
+      },
       "MediatR/14.2.0": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
@@ -551,6 +585,14 @@
           }
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
@@ -611,6 +653,30 @@
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.224.6711"
+          }
+        }
+      },
+      "Microsoft.FeatureManagement/4.8.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "8.0.1",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.Logging": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.FeatureManagement.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Microsoft.FeatureManagement.AspNetCore/4.8.0": {
+        "dependencies": {
+          "Microsoft.FeatureManagement": "4.8.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.FeatureManagement.AspNetCore.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
           }
         }
       },
@@ -719,6 +785,14 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "RabbitMQ.Client/7.2.2": {
+        "runtime": {
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.2.0"
           }
         }
       },
@@ -856,13 +930,26 @@
           }
         }
       },
+      "BuildingBlock.Messaging/1.0.0": {
+        "dependencies": {
+          "MassTransit": "8.5.11",
+          "MassTransit.RabbitMQ": "8.5.11"
+        },
+        "runtime": {
+          "BuildingBlock.Messaging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "BuildingBlocks/1.0.0": {
         "dependencies": {
           "FluentValidation": "12.1.1",
           "FluentValidation.AspNetCore": "11.3.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Mapster": "10.0.13",
-          "MediatR": "14.2.0"
+          "MediatR": "14.2.0",
+          "Microsoft.FeatureManagement.AspNetCore": "4.8.0"
         },
         "runtime": {
           "BuildingBlocks.dll": {
@@ -873,6 +960,7 @@
       },
       "Ordering.Application/1.0.0": {
         "dependencies": {
+          "BuildingBlock.Messaging": "1.0.0",
           "BuildingBlocks": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.31",
           "Ordering.Domain": "1.0.0"
@@ -999,6 +1087,27 @@
       "path": "mapster.core/10.0.13",
       "hashPath": "mapster.core.10.0.13.nupkg.sha512"
     },
+    "MassTransit/8.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zQDMTrxSfZDseZerNZV16K+TO2XOQYKUl+l/CoaJFjzzl2M+1ZVY7F5i8srnVP034fiX69vzaQxEup2GSK38kw==",
+      "path": "masstransit/8.5.11",
+      "hashPath": "masstransit.8.5.11.nupkg.sha512"
+    },
+    "MassTransit.Abstractions/8.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NVPW88Ge9vFlPboZCDTDsXKUOJygD76HAA3JBIC68XVFWzJ4X2mxDx20jCoFeA3xU9dj3jnNAvHwvIcEuc6zRg==",
+      "path": "masstransit.abstractions/8.5.11",
+      "hashPath": "masstransit.abstractions.8.5.11.nupkg.sha512"
+    },
+    "MassTransit.RabbitMQ/8.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-68a2b831qC8UKbw3aaC0CJs+xIevuNQMy5zA8qHbWBFYJho/bRxMJ+lHUgBByU6Pi994IGyE21pC2y6RqMC4kQ==",
+      "path": "masstransit.rabbitmq/8.5.11",
+      "hashPath": "masstransit.rabbitmq.8.5.11.nupkg.sha512"
+    },
     "MediatR/14.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1104,6 +1213,13 @@
       "path": "microsoft.extensions.caching.memory/8.0.1",
       "hashPath": "microsoft.extensions.caching.memory.8.0.1.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration.Binder/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7IQhGK+wjyGrNsPBjJcZwWAr+Wf6D4+TwOptUt77bWtgNkiV8tDEbhFS+dDamtQFZ2X7kWG9m71iZQRj2x3zgQ==",
+      "path": "microsoft.extensions.configuration.binder/8.0.2",
+      "hashPath": "microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/8.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1145,6 +1261,20 @@
       "sha512": "sha512-dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
       "path": "microsoft.extensions.options/8.0.2",
       "hashPath": "microsoft.extensions.options.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.FeatureManagement/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p1dzpXano+DTet2/hQGb+J91QonETabPYmO5BdqpsWOPq2C3WsWbm1BICTNlWqL81EVGrRrjpQh9mRNX55ZKmQ==",
+      "path": "microsoft.featuremanagement/4.8.0",
+      "hashPath": "microsoft.featuremanagement.4.8.0.nupkg.sha512"
+    },
+    "Microsoft.FeatureManagement.AspNetCore/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LBKVCjgNvJYtIiKb1IoXyuyzpZPmfVxnlDB0ByZ774EB1hNQLQlMQ9juZpJ3fRgEYodYs7aa7WKVvWshHx1CbQ==",
+      "path": "microsoft.featuremanagement.aspnetcore/4.8.0",
+      "hashPath": "microsoft.featuremanagement.aspnetcore.4.8.0.nupkg.sha512"
     },
     "Microsoft.Identity.Client/4.56.0": {
       "type": "package",
@@ -1215,6 +1345,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "RabbitMQ.Client/7.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k4b6RnTXpLbsF96V93ooNYxgPMnoA2tEm24B6AXNJr1mG8wwNYdA1XJtgU66L5xqeGyveS7SJriRzlX3cbqQNA==",
+      "path": "rabbitmq.client/7.2.2",
+      "hashPath": "rabbitmq.client.7.2.2.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",
@@ -1306,6 +1443,11 @@
       "sha512": "sha512-+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
       "path": "system.security.cryptography.protecteddata/8.0.0",
       "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+    },
+    "BuildingBlock.Messaging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BuildingBlocks/1.0.0": {
       "type": "project",

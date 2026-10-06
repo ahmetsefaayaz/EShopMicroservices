@@ -1,4 +1,5 @@
 using Basket.API.Data;
+using BuildingBlock.Messaging.MassTransit;
 using BuildingBlocks.Behaviors;
 using BuildingBlocks.Exceptions.Handler;
 using Carter;
@@ -42,6 +43,7 @@ builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(
     };
     return handler;
 });
+builder.Services.AddMessageBroker(builder.Configuration);
 
 //Cross Cutting Services
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
