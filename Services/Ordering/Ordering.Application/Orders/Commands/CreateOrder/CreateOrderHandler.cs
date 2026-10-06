@@ -30,7 +30,7 @@ public class CreateOrderCommandHandler(IApplicationDbContext dbContext): IComman
             dto.BillingAddress.AddressLine, dto.BillingAddress.Country, dto.BillingAddress.State,
             dto.BillingAddress.ZipCode);
         var newOrder = Order.Create(
-            id: OrderId.Of(new Guid()),
+            id: OrderId.Of(Guid.NewGuid()),
             customerId: CustomerId.Of(dto.CustomerId),
             orderName: OrderName.Of(dto.OrderName),
             shippingAddress: shippingAddress,
