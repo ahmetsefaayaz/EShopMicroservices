@@ -161,3 +161,12 @@ C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
 C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.FeatureManagement.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.FeatureManagement.AspNetCore.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\BuildingBlock.Messaging.dll
+C:\Code\Code\EShopMicroservices\Services\Ordering\Ordering.API\bin\Debug\net8.0\BuildingBlock.Messaging.pdb

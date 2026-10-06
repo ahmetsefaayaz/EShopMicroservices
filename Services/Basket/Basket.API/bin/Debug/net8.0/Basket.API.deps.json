@@ -11,6 +11,7 @@
           "AspNetCore.HealthChecks.NpgSql": "8.0.2",
           "AspNetCore.HealthChecks.Redis": "8.0.1",
           "AspNetCore.HealthChecks.UI.Client": "8.0.1",
+          "BuildingBlock.Messaging": "1.0.0",
           "BuildingBlocks": "1.0.0",
           "Carter": "8.2.1",
           "Google.Protobuf": "3.36.2",
@@ -288,6 +289,41 @@
           "lib/net8.0/Marten.dll": {
             "assemblyVersion": "8.38.1.0",
             "fileVersion": "8.38.1.0"
+          }
+        }
+      },
+      "MassTransit/8.5.11": {
+        "dependencies": {
+          "MassTransit.Abstractions": "8.5.11",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.dll": {
+            "assemblyVersion": "8.5.11.0",
+            "fileVersion": "8.5.11.0"
+          }
+        }
+      },
+      "MassTransit.Abstractions/8.5.11": {
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "assemblyVersion": "8.5.11.0",
+            "fileVersion": "8.5.11.0"
+          }
+        }
+      },
+      "MassTransit.RabbitMQ/8.5.11": {
+        "dependencies": {
+          "MassTransit": "8.5.11",
+          "RabbitMQ.Client": "7.2.2"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
+            "assemblyVersion": "8.5.11.0",
+            "fileVersion": "8.5.11.0"
           }
         }
       },
@@ -794,6 +830,19 @@
           }
         }
       },
+      "Microsoft.Extensions.Caching.Memory/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "Microsoft.Extensions.Caching.StackExchangeRedis/8.0.31": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
@@ -1069,6 +1118,30 @@
           }
         }
       },
+      "Microsoft.FeatureManagement/4.8.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "8.0.1",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.Logging": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.FeatureManagement.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Microsoft.FeatureManagement.AspNetCore/4.8.0": {
+        "dependencies": {
+          "Microsoft.FeatureManagement": "4.8.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.FeatureManagement.AspNetCore.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
       "Microsoft.IdentityModel.Abstractions/8.14.0": {
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
@@ -1198,6 +1271,17 @@
           "lib/net8.0/Polly.Core.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.6.5.5194"
+          }
+        }
+      },
+      "RabbitMQ.Client/7.2.2": {
+        "dependencies": {
+          "System.IO.Pipelines": "10.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.2.0"
           }
         }
       },
@@ -1408,13 +1492,26 @@
           }
         }
       },
+      "BuildingBlock.Messaging/1.0.0": {
+        "dependencies": {
+          "MassTransit": "8.5.11",
+          "MassTransit.RabbitMQ": "8.5.11"
+        },
+        "runtime": {
+          "BuildingBlock.Messaging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "BuildingBlocks/1.0.0": {
         "dependencies": {
           "FluentValidation": "12.1.1",
           "FluentValidation.AspNetCore": "11.3.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Mapster": "10.0.13",
-          "MediatR": "14.2.0"
+          "MediatR": "14.2.0",
+          "Microsoft.FeatureManagement.AspNetCore": "4.8.0"
         },
         "runtime": {
           "BuildingBlocks.dll": {
@@ -1599,6 +1696,27 @@
       "path": "marten/8.38.1",
       "hashPath": "marten.8.38.1.nupkg.sha512"
     },
+    "MassTransit/8.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zQDMTrxSfZDseZerNZV16K+TO2XOQYKUl+l/CoaJFjzzl2M+1ZVY7F5i8srnVP034fiX69vzaQxEup2GSK38kw==",
+      "path": "masstransit/8.5.11",
+      "hashPath": "masstransit.8.5.11.nupkg.sha512"
+    },
+    "MassTransit.Abstractions/8.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NVPW88Ge9vFlPboZCDTDsXKUOJygD76HAA3JBIC68XVFWzJ4X2mxDx20jCoFeA3xU9dj3jnNAvHwvIcEuc6zRg==",
+      "path": "masstransit.abstractions/8.5.11",
+      "hashPath": "masstransit.abstractions.8.5.11.nupkg.sha512"
+    },
+    "MassTransit.RabbitMQ/8.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-68a2b831qC8UKbw3aaC0CJs+xIevuNQMy5zA8qHbWBFYJho/bRxMJ+lHUgBByU6Pi994IGyE21pC2y6RqMC4kQ==",
+      "path": "masstransit.rabbitmq/8.5.11",
+      "hashPath": "masstransit.rabbitmq.8.5.11.nupkg.sha512"
+    },
     "MediatR/14.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1696,6 +1814,13 @@
       "sha512": "sha512-wNVK9JrqjqDC/WgBUFV6henDfrW87NPfo98nzah/+M/G1D6sBOPtXwqce3UQNn+6AjTnmkHYN1WV9XmTlPemTw==",
       "path": "microsoft.codeanalysis.workspaces.common/4.14.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.4.14.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HFDnhYLccngrzyGgHkjEDU5FMLn4MpOsr5ElgsBMC4yx6lJh4jeWO7fHS8+TXPq+dgxCmUa/Trl8svObmwW4QA==",
+      "path": "microsoft.extensions.caching.memory/8.0.1",
+      "hashPath": "microsoft.extensions.caching.memory.8.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.StackExchangeRedis/8.0.31": {
       "type": "package",
@@ -1851,6 +1976,20 @@
       "path": "microsoft.extensions.options/8.0.2",
       "hashPath": "microsoft.extensions.options.8.0.2.nupkg.sha512"
     },
+    "Microsoft.FeatureManagement/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p1dzpXano+DTet2/hQGb+J91QonETabPYmO5BdqpsWOPq2C3WsWbm1BICTNlWqL81EVGrRrjpQh9mRNX55ZKmQ==",
+      "path": "microsoft.featuremanagement/4.8.0",
+      "hashPath": "microsoft.featuremanagement.4.8.0.nupkg.sha512"
+    },
+    "Microsoft.FeatureManagement.AspNetCore/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LBKVCjgNvJYtIiKb1IoXyuyzpZPmfVxnlDB0ByZ774EB1hNQLQlMQ9juZpJ3fRgEYodYs7aa7WKVvWshHx1CbQ==",
+      "path": "microsoft.featuremanagement.aspnetcore/4.8.0",
+      "hashPath": "microsoft.featuremanagement.aspnetcore.4.8.0.nupkg.sha512"
+    },
     "Microsoft.IdentityModel.Abstractions/8.14.0": {
       "type": "package",
       "serviceable": true,
@@ -1941,6 +2080,13 @@
       "sha512": "sha512-t+sUVrIwvo7UmsgHGgOG9F0GDZSRIm47u2ylH17Gvcv1q5hNEwgD5GoBlFyc0kh/pebmPyrAgvGsR/65ZBaXlg==",
       "path": "polly.core/8.6.5",
       "hashPath": "polly.core.8.6.5.nupkg.sha512"
+    },
+    "RabbitMQ.Client/7.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k4b6RnTXpLbsF96V93ooNYxgPMnoA2tEm24B6AXNJr1mG8wwNYdA1XJtgU66L5xqeGyveS7SJriRzlX3cbqQNA==",
+      "path": "rabbitmq.client/7.2.2",
+      "hashPath": "rabbitmq.client.7.2.2.nupkg.sha512"
     },
     "Scrutor/7.0.0": {
       "type": "package",
@@ -2074,6 +2220,11 @@
       "sha512": "sha512-E9PYjshPO4Z4l5h+cV3QJMKUXO2LfcffTRHjZTVhw5+4dmK0el9gPE+f+/wjM75IKimfoZb/s0UZoeW1PCHUyA==",
       "path": "weasel.postgresql/8.15.0",
       "hashPath": "weasel.postgresql.8.15.0.nupkg.sha512"
+    },
+    "BuildingBlock.Messaging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BuildingBlocks/1.0.0": {
       "type": "project",

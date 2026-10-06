@@ -1,4 +1,4 @@
-﻿services:
+services:
   catalogdb:
     image: postgres:17
     container_name: catalogdb
@@ -38,6 +38,18 @@
     restart: always
     ports:
       - "1433:1433"
+  messagebroker:
+    image: rabbitmq:management
+    hostname: ecommerce-mq
+    container_name: messagebroker
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    
   catalog.api:
     image: catalog.api
     build:
@@ -74,7 +86,11 @@
       - GrpcSettings__DiscountUrl=https://discount.grpc:8081
       - ASPNETCORE_Kestrel__Certificates__Default__Password=Sifre123!
       - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - MessageBroker__Host=amqp://ecommerce-mq:5672
+      - MessageBroker__Password=guest
+      - MessageBroker__UserName=guest
     depends_on:
+      - messagebroker
       - basketdb
       - distributedcache
       - discount.grpc
@@ -94,7 +110,31 @@
       - ASPNETCORE_HTTPS_PORTS=8081
       - ConnectionStrings__DefaultConnection=Data Source=discountdb
       - ASPNETCORE_Kestrel__Certificates__Default__Password=Sifre123!
-      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx      
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ${USERPROFILE}\.aspnet\https:/https:ro
+  ordering.api:
+    image: ordering.api
+    build:
+      context: .
+      dockerfile: Services/Ordering/Ordering.API/Dockerfile
+    ports:
+      - "6003:8080"
+      - "6063:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Sifre123!
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ConnectionStrings__DefaultConnection=Server=orderdb;Database=OrderDb;User Id=sa;Password=Swn12345678;Encrypt=False;TrustServerCertificate=True
+      - MessageBroker__Host=amqp://ecommerce-mq:5672
+      - MessageBroker__Password=guest
+      - MessageBroker__UserName=guest
+      - FeatureManagement__OrderFulfillment=false
+    depends_on:
+      - orderdb
+      - messagebroker
     volumes:
       - ${USERPROFILE}\.aspnet\https:/https:ro
 volumes:
