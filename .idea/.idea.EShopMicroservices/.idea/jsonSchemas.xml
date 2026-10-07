@@ -20,6 +20,12 @@
                   <Item>
                     <option name="path" value="Services/Basket/Basket.API/appsettings.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="ApiGateways/YarpApiGateway/appsettings.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="ApiGateways/YarpApiGateway/appsettings.Local.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
