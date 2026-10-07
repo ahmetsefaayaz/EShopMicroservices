@@ -1,0 +1,29 @@
+﻿name: E-Commerce CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: Kodu GitHub'dan makineye çek (Checkout)
+        uses: actions/checkout@v4
+
+      - name: Makineye .NET 8 Kur
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Bağımlılıkları Yükle (Restore)
+        run: dotnet restore
+
+      - name: Projeyi Derle (Build)
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Testleri Koştur (Test)
+        run: dotnet test --no-build --configuration Release
