@@ -156,7 +156,27 @@ services:
       - basket.api
       - ordering.api
     volumes:
-     - ${USERPROFILE}\.aspnet\https:/https:ro
+      - ${USERPROFILE}\.aspnet\https:/https:ro
+  shopping.web:
+    image: shopping.web
+    build:
+      context: .
+      dockerfile: WebApps/Shopping.Web/Dockerfile
+    ports:
+      - "6005:8080"
+      - "6065:8081"
+    depends_on:
+      - yarp.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+      - ApiSettings__GatewayAddress=http://yarp.api:8080
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Sifre123!
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ${USERPROFILE}\.aspnet\https:/https:ro
+    
 volumes:
   postgres_catalog:
   postgres_basket:

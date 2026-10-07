@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "/QEWUpAS4lU=",
+  "success": true,
+  "projectFilePath": "C:\\Code\\Code\\EShopMicroservices\\WebApps\\Shopping.Web\\Shopping.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.12\\microsoft.extensions.configuration.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.12\\microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.12\\microsoft.extensions.configuration.binder.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.12\\microsoft.extensions.dependencyinjection.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.diagnostics\\10.0.12\\microsoft.extensions.diagnostics.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.12\\microsoft.extensions.diagnostics.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.http\\10.0.12\\microsoft.extensions.http.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.logging\\10.0.12\\microsoft.extensions.logging.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.12\\microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.options\\10.0.12\\microsoft.extensions.options.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.12\\microsoft.extensions.options.configurationextensions.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.12\\microsoft.extensions.primitives.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\reactiveui.disposables\\8.2.0\\reactiveui.disposables.8.2.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\reactiveui.primitives\\8.2.0\\reactiveui.primitives.8.2.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\reactiveui.primitives.core\\8.2.0\\reactiveui.primitives.core.8.2.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\refit\\16.3.0\\refit.16.3.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\refit.httpclientfactory\\16.3.0\\refit.httpclientfactory.16.3.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\refit.reflection\\16.3.0\\refit.reflection.16.3.0.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.12\\system.diagnostics.diagnosticsource.10.0.12.nupkg.sha512",
+    "C:\\Users\\ayaza\\.nuget\\packages\\system.net.serversentevents\\10.0.12\\system.net.serversentevents.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
