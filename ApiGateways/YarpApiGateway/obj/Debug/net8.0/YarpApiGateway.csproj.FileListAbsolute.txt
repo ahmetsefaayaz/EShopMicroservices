@@ -31,3 +31,4 @@ C:\Code\Code\EShopMicroservices\ApiGateways\YarpApiGateway\bin\Debug\net8.0\Syst
 C:\Code\Code\EShopMicroservices\ApiGateways\YarpApiGateway\bin\Debug\net8.0\Yarp.ReverseProxy.dll
 C:\Code\Code\EShopMicroservices\ApiGateways\YarpApiGateway\obj\Debug\net8.0\YarpApiGateway.csproj.AssemblyReference.cache
 C:\Code\Code\EShopMicroservices\ApiGateways\YarpApiGateway\obj\Debug\net8.0\YarpApiG.578690C6.Up2Date
+C:\Code\Code\EShopMicroservices\ApiGateways\YarpApiGateway\bin\Debug\net8.0\appsettings.Local.json
